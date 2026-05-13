@@ -33,8 +33,8 @@ const AboutSection: React.FC = () => {
         </FadeIn>
 
         <AnimatedText 
-          text="With more than five years of experience in design, i focus on branding, web design, and user experience, i truly enjoy working with businesses that aim to stand out and present their best image. Let's build something incredible together!"
-          className="text-[#D7E2EA] font-medium leading-relaxed max-w-[560px] mb-16 sm:mb-20 md:mb-24"
+          text="I am a dedicated Computer Science student and Full-Stack Developer specialized in building scalable web applications and AI-powered solutions. With expertise in React, Node.js, and Flutter, I focus on creating innovative tools like AI-driven healthcare kiosks and advanced file conversion suites, always striving to deliver seamless and high-impact user experiences."
+          className="text-[#D7E2EA] font-medium leading-relaxed max-w-[700px] mb-16 sm:mb-20 md:mb-24"
           style={{ fontSize: 'clamp(1rem, 2vw, 1.35rem)' }}
         />
 

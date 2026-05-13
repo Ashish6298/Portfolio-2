@@ -4,6 +4,7 @@ import MarqueeSection from './sections/MarqueeSection';
 import AboutSection from './sections/AboutSection';
 import ServicesSection from './sections/ServicesSection';
 import ProjectsSection from './sections/ProjectsSection';
+import ContactSection from './sections/ContactSection';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutSection />
       <ServicesSection />
       <ProjectsSection />
+      <ContactSection />
       
       {/* Footer / Contact placeholder if needed */}
       <footer className="bg-[#0C0C0C] py-20 flex flex-col items-center justify-center border-t border-[rgba(215,226,234,0.1)]">

@@ -1,37 +1,84 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import FadeIn from '../components/FadeIn';
-import LiveProjectButton from '../components/LiveProjectButton';
+
 
 const PROJECTS = [
   {
     id: "01",
-    title: "Nextlevel Studio",
-    category: "Client",
+    title: "FileForge",
+    category: "AI + Files",
+    description: "File conversion suite for PDF, DOCX, PPTX & video; AI summarization via Gemini API.",
     images: {
-      col1_1: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055344_5eff02e0-87a5-41ce-b64f-eb08da8f33db.png&w=1280&q=85",
-      col1_2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055431_11d841fd-8b41-46a5-82e4-b04f2407a7d8.png&w=1280&q=85",
-      col2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055451_e317bf2d-28d4-48cc-86b0-6f72f25b6327.png&w=1280&q=85"
+      col1_1: "/projects/fileforge.png",
+      col1_2: "/projects/fileforge.png",
+      col2: "/projects/fileforge.png"
     }
   },
   {
     id: "02",
-    title: "Aura Brand Identity",
-    category: "Personal",
+    title: "CareLink",
+    category: "Healthcare",
+    description: "AI-driven hospital kiosk with symptom assessment, chatbot diagnosis & lab booking.",
     images: {
-      col1_1: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055654_911201c5-36d9-4bc6-bac7-331adfce159f.png&w=1280&q=85",
-      col1_2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055723_5ceda0b8-d9c2-4665-b2e3-83ba19ba76d1.png&w=1280&q=85",
-      col2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055753_adc5dcbd-a8e6-49c0-b43a-9b030d835cea.png&w=1280&q=85"
+      col1_1: "/projects/carelink.png",
+      col1_2: "/projects/carelink.png",
+      col2: "/projects/carelink.png"
     }
   },
   {
     id: "03",
-    title: "Solaris Digital",
-    category: "Client",
+    title: "Medisynth",
+    category: "Med-Ed AI",
+    description: "Virtual patient simulator for medical training, built with FastAPI, React & OpenCV.",
     images: {
-      col1_1: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055759_963cfb0b-4bd1-4b0f-9d0a-09bd6cf95b2f.png&w=1280&q=85",
-      col1_2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_060108_438f781a-9846-4dcc-89ab-c4e6cb830f5b.png&w=1280&q=85",
-      col2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055818_9d062121-ad7e-46b9-999a-1a6a692ef1ee.png&w=1280&q=85"
+      col1_1: "/projects/medisynth.png",
+      col1_2: "/projects/medisynth.png",
+      col2: "/projects/medisynth.png"
+    }
+  },
+  {
+    id: "04",
+    title: "Tunify",
+    category: "Flutter App",
+    description: "Android music streaming app with playlists, real-time search & YouTube audio backend.",
+    images: {
+      col1_1: "/projects/tunify.png",
+      col1_2: "/projects/tunify.png",
+      col2: "/projects/tunify.png"
+    }
+  },
+  {
+    id: "05",
+    title: "DocLens",
+    category: "AI + OCR",
+    description: "AI-powered document analyzer that extracts, summarizes, and explains content from PDFs and images using OCR and LLMs.",
+    images: {
+      col1_1: "/projects/doclens.png",
+      col1_2: "/projects/doclens.png",
+      col2: "/projects/doclens.png"
+    }
+  },
+  {
+    id: "06",
+    title: "RESONIX",
+    category: "Flutter",
+    description: "Personal ad-free music player with high-fidelity audio streaming, smart playlists, and a sleek modern interface.",
+    images: {
+      col1_1: "/projects/resonix.png",
+      col1_2: "/projects/resonix.png",
+      col2: "/projects/resonix.png"
+    }
+  },
+  {
+    id: "07",
+    title: "IRIS AI",
+    category: "Python + AI",
+    description: "An intelligent virtual assistant designed for workflow automation, voice commands, and personalized productivity enhancements.",
+    images: {
+      col1_1: "/projects/irisai.png",
+      col1_2: "/projects/irisai.png",
+      col2: "/projects/irisai.png"
     }
   }
 ];
@@ -102,12 +149,14 @@ const ProjectCard = ({ project, index, progress, totalCards }: any) => {
               <span className="text-[#D7E2EA] opacity-60 uppercase tracking-widest text-[10px] sm:text-xs">
                 {project.category}
               </span>
-              <h3 className="text-[#D7E2EA] font-bold uppercase text-lg sm:text-2xl md:text-3xl lg:text-4xl">
+              <h3 className="text-[#D7E2EA] font-bold uppercase text-lg sm:text-2xl md:text-3xl lg:text-4xl mb-2">
                 {project.title}
               </h3>
+              <p className="text-[#D7E2EA] opacity-40 text-xs sm:text-sm max-w-[300px] leading-relaxed">
+                {project.description}
+              </p>
             </div>
           </div>
-          <LiveProjectButton />
         </div>
 
         {/* Bottom Row - Image Grid */}

@@ -6,15 +6,7 @@ import ContactButton from '../components/ContactButton';
 const HeroSection: React.FC = () => {
   return (
     <section className="h-screen w-full flex flex-col relative overflow-x-clip px-6 md:px-10 pb-7 sm:pb-8 md:pb-10">
-      {/* Navbar */}
-      <FadeIn delay={0} y={-20} className="w-full flex justify-between items-center pt-6 md:pt-8">
-        <div className="flex gap-6 md:gap-10 lg:gap-16 w-full justify-between items-center text-[#D7E2EA] font-medium uppercase tracking-wider text-sm md:text-lg lg:text-[1.4rem]">
-          <a href="#about" className="hover:opacity-70 transition-opacity duration-200">About</a>
-          <a href="#price" className="hover:opacity-70 transition-opacity duration-200">Price</a>
-          <a href="#projects" className="hover:opacity-70 transition-opacity duration-200">Projects</a>
-          <a href="#contact" className="hover:opacity-70 transition-opacity duration-200">Contact</a>
-        </div>
-      </FadeIn>
+      {/* Navbar Removed */}
 
       {/* Hero Heading */}
       <div className="flex-1 flex items-start justify-center overflow-hidden mt-6 sm:mt-4 md:-mt-5">

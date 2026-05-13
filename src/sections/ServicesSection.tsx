@@ -4,28 +4,33 @@ import FadeIn from '../components/FadeIn';
 const SERVICES = [
   {
     id: "01",
-    title: "3D Modeling",
-    description: "Creation of detailed objects, characters, or environments tailored to specific client needs, ideal for games, products, and visualizations."
+    title: "Full-stack web development",
+    description: "End-to-end web applications built with React, Node.js, Express, and MongoDB — from clean responsive UIs to secure REST APIs, auth systems, and database design."
   },
   {
     id: "02",
-    title: "Rendering",
-    description: "High-quality, photorealistic renders that showcase designs with custom lighting, textures, and materials to bring concepts to life."
+    title: "Mobile app development",
+    description: "Cross-platform Android and iOS apps using Flutter and Dart, with real-time features, playlist management, audio streaming, and seamless backend integration."
   },
   {
     id: "03",
-    title: "Motion Design",
-    description: "Dynamic animations and motion graphics that add energy and storytelling to brands, products, and digital experiences."
+    title: "AI feature integration",
+    description: "Adding intelligence to your product — chatbots, symptom assessors, document summarizers, and recommendation engines powered by Gemini API, FastAPI, and ML models."
   },
   {
     id: "04",
-    title: "Branding",
-    description: "Crafting cohesive visual identities -- from logos to full brand systems -- that communicate a clear and memorable presence."
+    title: "REST API & backend development",
+    description: "Robust, well-structured backends with JWT authentication, role-based access, third-party integrations like Twilio and Cloudinary, and QR code or notification systems."
   },
   {
     id: "05",
-    title: "Web Design",
-    description: "Designing clean, modern, and conversion-focused websites with attention to layout, typography, and user experience."
+    title: "Dashboards & data visualization",
+    description: "Admin panels and analytics dashboards with live charts, advanced filters, CSV and PDF export, and real-time business insights built using Material-UI and charting libraries."
+  },
+  {
+    id: "06",
+    title: "UI/UX design & prototyping",
+    description: "User-centered interface design and interactive prototypes in Figma before development begins — ensuring a polished, accessible experience across every screen size."
   }
 ];
 
