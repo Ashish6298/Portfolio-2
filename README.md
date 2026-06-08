@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:020617,45:0F4C81,100:38BDF8&text=Ashish%20Goswami%20Portfolio&fontColor=ffffff&fontSize=42&fontAlignY=35&animation=fadeIn&desc=Dark%20Motion-Rich%20Developer%20Portfolio&descAlignY=58&descSize=16" alt="Ashish Goswami Portfolio animated banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Kanit&weight=700&size=22&duration=2800&pause=800&color=000000&center=true&vCenter=true&width=900&lines=Built+with+React+%2B+TypeScript+%2B+Vite;Styled+with+Tailwind+CSS;Animated+with+Framer+Motion;Designed+as+a+dark+interactive+portfolio" alt="Animated portfolio tech stack typing line" />
+<img src="https://readme-typing-svg.demolab.com?font=Kanit&weight=700&size=22&duration=2800&pause=800&color=FFFFFF&center=true&vCenter=true&width=900&lines=Built+with+React+%2B+TypeScript+%2B+Vite;Styled+with+Tailwind+CSS;Animated+with+Framer+Motion;Designed+as+a+dark+interactive+portfolio" alt="Animated portfolio tech stack typing line" />
 
 <br />
 <br />
