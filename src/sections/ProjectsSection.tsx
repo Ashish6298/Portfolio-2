@@ -131,10 +131,6 @@ const ProjectsSection: React.FC = () => {
 
 const ProjectCard = ({ project, index, progress, totalCards }: any) => {
   const containerRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ['start end', 'start start']
-  });
 
   // Target scale logic: 1 - (totalCards - 1 - index) * 0.03
   const targetScale = 1 - (totalCards - 1 - index) * 0.03;

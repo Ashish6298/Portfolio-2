@@ -1,5 +1,6 @@
+import type React from 'react';
 import { motion } from 'framer-motion';
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 
 interface FadeInProps {
   children: ReactNode;
@@ -8,7 +9,7 @@ interface FadeInProps {
   x?: number;
   y?: number;
   className?: string;
-  tagName?: keyof JSX.IntrinsicElements;
+  tagName?: keyof React.JSX.IntrinsicElements;
 }
 
 const FadeIn = ({
@@ -20,7 +21,7 @@ const FadeIn = ({
   className = "",
   tagName = "div"
 }: FadeInProps) => {
-  const MotionTag = motion[tagName as keyof typeof motion] || motion.div;
+  const MotionTag = ((motion as any)[tagName] || motion.div) as any;
 
   return (
     <MotionTag
