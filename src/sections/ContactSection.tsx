@@ -19,8 +19,8 @@ const ContactSection: React.FC = () => {
               <span className="text-white/40 uppercase tracking-[0.2em] text-xs font-bold">Main Channel</span>
               <a 
                 href="mailto:ashishgoswami1013@gmail.com" 
-                className="text-white font-medium hover:text-[#B600A8] transition-colors duration-300 break-words"
-                style={{ fontSize: 'clamp(1.5rem, 4vw, 3rem)' }}
+                className="text-white font-medium hover:text-[#B600A8] transition-colors duration-300 whitespace-nowrap"
+                style={{ fontSize: 'clamp(1.25rem, 3vw, 2.25rem)' }}
               >
                 ashishgoswami1013@gmail.com
               </a>
@@ -52,7 +52,6 @@ const ContactSection: React.FC = () => {
 
               <FadeIn delay={0.6} y={20} className="flex flex-col gap-4">
                 <span className="text-white/40 uppercase tracking-[0.2em] text-[10px] font-black">Social</span>
-                <a href="https://twitter.com/_ashish_goswami" target="_blank" rel="noreferrer" className="text-white hover:opacity-50 transition-opacity text-lg">Twitter / X</a>
                 <a href="https://www.instagram.com/a.s.h.i.s.h__g.o.s.w.a.m.i/" target="_blank" rel="noreferrer" className="text-white hover:opacity-50 transition-opacity text-lg">Instagram</a>
               </FadeIn>
             </div>

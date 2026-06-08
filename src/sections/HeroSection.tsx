@@ -5,11 +5,11 @@ import ContactButton from '../components/ContactButton';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="h-screen w-full flex flex-col relative overflow-x-clip px-6 md:px-10 pb-7 sm:pb-8 md:pb-10">
+    <section id="home" className="h-screen w-full flex flex-col relative overflow-x-clip px-6 md:px-10 pb-7 sm:pb-8 md:pb-10">
       {/* Navbar Removed */}
 
       {/* Hero Heading */}
-      <div className="flex-1 flex items-start justify-center overflow-hidden mt-6 sm:mt-4 md:-mt-5">
+      <div className="flex-1 flex items-start justify-center overflow-hidden mt-16 sm:mt-14 md:mt-12">
         <FadeIn delay={0.15} y={40} className="w-full">
           <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-center
                          text-[9.5vw] sm:text-[10.5vw] md:text-[11.5vw] lg:text-[13vw]">

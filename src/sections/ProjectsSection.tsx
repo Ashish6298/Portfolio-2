@@ -6,6 +6,17 @@ import FadeIn from '../components/FadeIn';
 const PROJECTS = [
   {
     id: "01",
+    title: "INSPECTO",
+    category: "Flutter + Node",
+    description: "Premium API testing and debugging toolkit with request builder, response viewer, collections, and environments.",
+    images: {
+      col1_1: "/projects/inspecto_builder.png",
+      col1_2: "/projects/inspecto_response.png",
+      col2: "/projects/inspecto_cyber.png"
+    }
+  },
+  {
+    id: "02",
     title: "FileForge",
     category: "AI + Files",
     description: "File conversion suite for PDF, DOCX, PPTX & video; AI summarization via Gemini API.",
@@ -16,7 +27,7 @@ const PROJECTS = [
     }
   },
   {
-    id: "02",
+    id: "03",
     title: "CareLink",
     category: "Healthcare",
     description: "AI-driven hospital kiosk with symptom assessment, chatbot diagnosis & lab booking.",
@@ -27,7 +38,7 @@ const PROJECTS = [
     }
   },
   {
-    id: "03",
+    id: "04",
     title: "Medisynth",
     category: "Med-Ed AI",
     description: "Virtual patient simulator for medical training, built with FastAPI, React & OpenCV.",
@@ -38,7 +49,7 @@ const PROJECTS = [
     }
   },
   {
-    id: "04",
+    id: "05",
     title: "Tunify",
     category: "Flutter App",
     description: "Android music streaming app with playlists, real-time search & YouTube audio backend.",
@@ -49,7 +60,7 @@ const PROJECTS = [
     }
   },
   {
-    id: "05",
+    id: "06",
     title: "DocLens",
     category: "AI + OCR",
     description: "AI-powered document analyzer that extracts, summarizes, and explains content from PDFs and images using OCR and LLMs.",
@@ -60,7 +71,7 @@ const PROJECTS = [
     }
   },
   {
-    id: "06",
+    id: "07",
     title: "RESONIX",
     category: "Flutter",
     description: "Personal ad-free music player with high-fidelity audio streaming, smart playlists, and a sleek modern interface.",
@@ -71,7 +82,7 @@ const PROJECTS = [
     }
   },
   {
-    id: "07",
+    id: "08",
     title: "IRIS AI",
     category: "Python + AI",
     description: "An intelligent virtual assistant designed for workflow automation, voice commands, and personalized productivity enhancements.",
