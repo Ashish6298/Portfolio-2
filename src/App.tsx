@@ -12,7 +12,7 @@ function App() {
         <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 sm:gap-x-8 text-white text-[10px] sm:text-sm font-bold uppercase tracking-[0.16em] sm:tracking-[0.18em]">
           <a href="#home" className="hover:text-white transition-colors">Home</a>
           <a href="#about" className="hover:text-white transition-colors">About</a>
-          <a href="#services" className="hover:text-white transition-colors">Services</a>
+          <a href="#services" className="hover:text-white transition-colors">Skills</a>
           <a href="#projects" className="hover:text-white transition-colors">Projects</a>
           <a href="#contact" className="hover:text-white transition-colors">Contact</a>
         </div>
